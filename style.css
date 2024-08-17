@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#nav{
+    /* color: beige; */
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vh 3vw;
+    /* background-color: blue; */
+}
+
+#nav #navopt{
+    color: antiquewhite;
+    text-transform: capitalize;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+
+#nav #logo{
+    color: cadetblue;
+    font-size: 2vw;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#welcome{
+    text-transform: uppercase;
+    font-size: 40vh;
+    font-weight: 600;
+    color: goldenrod;
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    padding: 3vh 5vw;
+
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+
+}
+
